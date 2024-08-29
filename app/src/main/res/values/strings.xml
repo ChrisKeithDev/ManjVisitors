@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ManjVisitors</string>
+    <string name="scan_instruct">Press \'Scan\' then hold your ID behind the tablet with the barcode facing the camera.</string>
+</resources>

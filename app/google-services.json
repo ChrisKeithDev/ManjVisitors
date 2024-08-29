@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "${BuildConfig.PROJECT_NUMBER_SECRET}",
+    "project_id": "${BuildConfig.PROJECT_ID_SECRET}",
+    "storage_bucket": "${BuildConfig.STORAGE_BUCKET_SECRET}"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "${BuildConfig.MOBILE_SDK_APP_ID_SECRET}",
+        "android_client_info": {
+          "package_name": "${BuildConfig.PACKAGE_NAME_SECRET}"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "${BuildConfig.CURRENT_KEY_SECRET}"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
